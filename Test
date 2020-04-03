@@ -1,3 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <update version="1.0">
+      <file name="sample.index" url="http://hosting.com/files/sample.index" />
+    </update>
+  </info>
+  <files>
+    <file name="source.xml" url="http://hosting.com/files/source.xml" />
+    <file name="items.xml" url="http://hosting.com/files/items.xml" />
+  </files>
+</index>
+
 <element name="Elemental Campaign" type="Option" source="Aurora: Example" id="ID_AURORA_OPTION_ELEMENTAL_CAMPAIGN">
     <description>
         <p>A short description of your Elemetal Campaign, what additional features the character is getting, and anything else you want to describe. This full description can be read in the built-in compendium.</p>
