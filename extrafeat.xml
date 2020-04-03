@@ -2,30 +2,26 @@
 <index>
   <info>
     <update version="1.0">
-      <file name="sample.index" url="http://hosting.com/files/sample.index" />
+      <file name="extrafeat.index" url="https://github.com/DaFok556/Crispy/blob/master/extrafeat.index" />
     </update>
   </info>
   <files>
-    <file name="source.xml" url="http://hosting.com/files/source.xml" />
-    <file name="items.xml" url="http://hosting.com/files/items.xml" />
+    <file name="source.xml" url="https://github.com/DaFok556/Crispy/blob/master/source.xml" />
+    <file name="items.xml" url="https://github.com/DaFok556/Crispy/blob/master/items.xml" />
   </files>
 </index>
 
-<element name="Elemental Campaign" type="Option" source="Aurora: Example" id="ID_AURORA_OPTION_ELEMENTAL_CAMPAIGN">
+<element name="Homebrew Campaign" type="Option" source="Aurora: Example" id="ID_AURORA_OPTION_HOMEBREW_CAMPAIGN">
     <description>
-        <p>A short description of your Elemetal Campaign, what additional features the character is getting, and anything else you want to describe. This full description can be read in the built-in compendium.</p>
+        <p>A common aspect we add to homebrew campaigns is an additional feat at lvl 1.</p>
         <ul>
-            <li>You gain one cantrip; control flames, gust, shape water, mold earth, or druidcraft.</li>
             <li>You gain an additional feat.</li>
-            <li>You gain proficiency in one additional skill.</li>
         </ul>
     </description>
     <setters>
-        <set name="short">As a player in the Elemental Campaign you gain some benefits.</set>
+        <set name="short">As a player in the Homebrew Campaign you gain some benefits.</set>
     </setters>
     <rules>
-        <select type="Spell" name="Cantrip, Elemental Campaign" supports="ID_XGTE_SPELL_CONTROL_FLAMES|ID_XGTE_SPELL_GUST|ID_XGTE_SPELL_SHAPE_WATER|ID_XGTE_SPELL_MOLD_EARTH|ID_PHB_SPELL_DRUIDCRAFT" />
-        <select type="Feat" name="Feat, Elemental Campaign" />
-        <select type="Proficiency" name="Proficiency, Elemental Campaign" supports="Skill" />
+        <select type="Feat" name="Feat, Elemental Campaign" /
     </rules>
 </element>
