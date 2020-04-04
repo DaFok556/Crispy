@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
-		<update version="0.1">
-			<file name="source.xml" url="https://raw.githubusercontent.com/DaFok556/Crispy/master/source.xml" />
+		<update version="0.0.1">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/sources.xml" />
 		</update>
 	</info>
-	<element name="Homebrew" type="Source" source="Core" id="ID_RDDT_SOURCE_REDDIT_DND">
-		<description>
-			<![CDATA[<p>Homebrew content.</p>]]>
-		</description>
-		<setters>
-			<set name="abbreviation">DF</set>
-			<set name="author" abbreviation="DF">Dereck Fok</set>
-			<set name="homebrew">true</set>
-		</setters>
-	</element>
 </elements>
