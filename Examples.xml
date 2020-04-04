@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+  <element name="Example Dwarf" type="Sub Race" source="Aurora: Examples" id="ID_EXAMPLE_SUBRACE_EXAMPLE_DWARF">
+    <supports>Dwarf</supports>
+    <description>
+      <p>A description of the example dwarf.</p>
+      <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2.</p>
+    </description>
+    <rules>
+      <stat name="strength" value="2" />      
+    </rules>
+  </element>
+  
+  <element name="Elemental Campaign" type="Option" source="Aurora: Example" id="ID_AURORA_OPTION_ELEMENTAL_CAMPAIGN">
+    <description>
+        <p>A short description of your Elemetal Campaign, what additional features the character is getting, and anything else you want to describe. This full description can be read in the built-in compendium.</p>
+        <ul>
+            <li>You gain one cantrip; control flames, gust, shape water, mold earth, or druidcraft.</li>
+            <li>You gain an additional feat.</li>
+            <li>You gain proficiency in one additional skill.</li>
+        </ul>
+    </description>
+    <setters>
+        <set name="short">As a player in the Elemental Campaign you gain some benefits.</set>
+    </setters>
+    <rules>
+        <select type="Spell" name="Cantrip, Elemental Campaign" supports="ID_XGTE_SPELL_CONTROL_FLAMES|ID_XGTE_SPELL_GUST|ID_XGTE_SPELL_SHAPE_WATER|ID_XGTE_SPELL_MOLD_EARTH|ID_PHB_SPELL_DRUIDCRAFT" />
+        <select type="Feat" name="Feat, Elemental Campaign" />
+        <select type="Proficiency" name="Proficiency, Elemental Campaign" supports="Skill" />
+    </rules>
+</element>
+
+</elements>
