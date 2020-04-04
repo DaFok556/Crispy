@@ -10,7 +10,7 @@
   </files>
 </index>
 
-<element name="Homebrew Campaign" type="Option" source="Aurora: Example" id="ID_AURORA_OPTION_HOMEBREW_CAMPAIGN">
+<element name="Homebrew Campaign" type="Option" source="extrafeat" id="ID_AURORA_OPTION_HOMEBREW_CAMPAIGN">
     <description>
         <p>A common aspect we add to homebrew campaigns is an additional feat at lvl 1.</p>
         <ul>
