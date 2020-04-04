@@ -1,14 +1,19 @@
-<element name="Homebrew Campaign" type="Option" source="extrafeat" id="ID_AURORA_OPTION_HOMEBREW_CAMPAIGN">
-	<description>
-		<p>A common aspect we add to homebrew campaigns is an additional feat at lvl 1.</p>
-	<ul>
-		<li>You gain an additional feat.</li>
-	</ul>
-	</description>
-	<setters>
-		<set name="short">As a player in the Homebrew Campaign you gain some benefits.</set>
-	</setters>
-	<rules>
-	<select type="Feat" name="Feat, Homebrew Campaign"/>
-	</rules>
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	
+	<element name="Homebrew Campaign" type="Option" source="extrafeat" id="ID_AURORA_OPTION_HOMEBREW_CAMPAIGN">
+		<description>
+			<p>A common aspect we add to homebrew campaigns is an additional feat at lvl 1.</p>
+		<ul>
+			<li>You gain an additional feat.</li>
+		</ul>
+		</description>
+		<setters>
+			<set name="short">As a player in the Homebrew Campaign you gain some benefits.</set>
+		</setters>
+		<rules>
+			<select type="Feat" name="Feat, Homebrew Campaign" />
+		</rules>
 </element>
+
+</elements>
