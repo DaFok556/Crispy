@@ -12,7 +12,7 @@
     </rules>
   </element>
   
-  <element name="Elemental Campaign" type="Option" source="Aurora: Example" id="ID_AURORA_OPTION_ELEMENTAL_CAMPAIGN">
+  <element name="Elemental Campaign" type="Option" source="Aurora: Examples" id="ID_AURORA_OPTION_ELEMENTAL_CAMPAIGN">
     <description>
         <p>A short description of your Elemetal Campaign, what additional features the character is getting, and anything else you want to describe. This full description can be read in the built-in compendium.</p>
         <ul>
