@@ -1,15 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<index>
-  <info>
-    <update version="1.0">
-      <file name="extrafeat.index" url="https://raw.githubusercontent.com/DaFok556/Crispy/master/extrafeat.index" />
-    </update>
-  </info>
-  <files>
-    <file name="source.xml" url="https://raw.githubusercontent.com/DaFok556/Crispy/master/source.xml" />
-  </files>
-</index>
-
 <element name="Homebrew Campaign" type="Option" source="extrafeat" id="ID_AURORA_OPTION_HOMEBREW_CAMPAIGN">
     <description>
         <p>A common aspect we add to homebrew campaigns is an additional feat at lvl 1.</p>
