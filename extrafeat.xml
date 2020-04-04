@@ -9,6 +9,6 @@
         <set name="short">As a player in the Homebrew Campaign you gain some benefits.</set>
     </setters>
     <rules>
-        <select type="Feat" name="Feat, Homebrew Campaign" /
+        <select type="Feat" name="Feat, Homebrew Campaign">
     </rules>
 </element>
